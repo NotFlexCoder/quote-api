@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/quotes.js",
+      "src": "quotes.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/",
-      "dest": "/api/quotes.js"
+      "dest": "quotes.js"
     }
   ]
 }
